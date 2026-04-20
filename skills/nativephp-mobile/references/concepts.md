@@ -1,6 +1,6 @@
 # Concepts — NativePHP Mobile v3
 
-**Source (pinned):** `https://github.com/NativePHP/nativephp.com/tree/393dffc5e070675654b64275d3b44d4923a6635f/resources/views/docs/mobile/3/concepts`
+**Source:** `https://github.com/NativePHP/nativephp.com/tree/main/resources/views/docs/mobile/3/concepts`
 
 > Queues have their own dedicated reference: see `references/queues.md`.
 

@@ -1,6 +1,6 @@
 # Plugin Events — NativePHP Mobile v3
 
-**Source (pinned):** `https://github.com/NativePHP/nativephp.com/blob/393dffc5e070675654b64275d3b44d4923a6635f/resources/views/docs/mobile/3/plugins/events.md`
+**Source:** `https://github.com/NativePHP/nativephp.com/blob/main/resources/views/docs/mobile/3/plugins/events.md`
 
 Plugins can dispatch Laravel events from native code. These events are dual-dispatched: they fire to both the WebView (JS / Livewire) and the Laravel event bus.
 

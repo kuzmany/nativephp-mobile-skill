@@ -1,6 +1,6 @@
 # EDGE Components — NativePHP Mobile v3
 
-**Source (pinned):** `https://github.com/NativePHP/nativephp.com/tree/393dffc5e070675654b64275d3b44d4923a6635f/resources/views/docs/mobile/3/edge-components`
+**Source:** `https://github.com/NativePHP/nativephp.com/tree/main/resources/views/docs/mobile/3/edge-components`
 
 EDGE = Element Definition and Generation Engine
 
@@ -215,7 +215,7 @@ The icon system resolves each name in this order — first match wins:
 **Net effect:** `icon="home"` works on both platforms via the manual map. `icon="car.side.fill"` is iOS-only (passes through tier 1). `icon="shopping_cart"` is Android-only (passes through tier 1). Use tier 2 names when you want one string for both platforms.
 
 ### Full Reference
-Complete manual mapping table: [pinned `icons.md`](https://github.com/NativePHP/nativephp.com/blob/393dffc5e070675654b64275d3b44d4923a6635f/resources/views/docs/mobile/3/edge-components/icons.md) — covers navigation, commerce, charts, time, actions, communication, status, auth, content, device/hardware, audio.
+Complete manual mapping table: [pinned `icons.md`](https://github.com/NativePHP/nativephp.com/blob/main/resources/views/docs/mobile/3/edge-components/icons.md) — covers navigation, commerce, charts, time, actions, communication, status, auth, content, device/hardware, audio.
 
 ### Legacy summary
 

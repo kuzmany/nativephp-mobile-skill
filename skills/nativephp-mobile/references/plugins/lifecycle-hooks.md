@@ -1,6 +1,6 @@
 # Lifecycle Hooks — NativePHP Mobile v3
 
-**Source (pinned):** `https://github.com/NativePHP/nativephp.com/blob/393dffc5e070675654b64275d3b44d4923a6635f/resources/views/docs/mobile/3/plugins/lifecycle-hooks.md`
+**Source:** `https://github.com/NativePHP/nativephp.com/blob/main/resources/views/docs/mobile/3/plugins/lifecycle-hooks.md`
 
 Plugins can run custom Laravel console commands at specific points during `native:install` / `native:run` / `native:package`.
 

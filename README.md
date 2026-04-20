@@ -13,7 +13,7 @@ An [Agent Skill](https://skills.sh) that teaches Claude Code, Cursor, Codex and 
 - **Plugins:** scaffolding, bridge functions (PHP ↔ Swift/Kotlin), events, lifecycle hooks, manifest (`nativephp.json`), permissions/dependencies, marketplace best practices
 - **Commands:** full `native:*` Artisan command reference with v3.1 flags (`native:jump` shorthands, multi-plugin registration)
 
-All source URLs are pinned to NativePHP docs SHA [`393dffc`](https://github.com/NativePHP/nativephp.com/tree/393dffc5e070675654b64275d3b44d4923a6635f/resources/views/docs/mobile/3) so links don't drift.
+All source URLs point to the NativePHP docs on the [`main` branch](https://github.com/NativePHP/nativephp.com/tree/main/resources/views/docs/mobile/3). Skill body was last synced against SHA [`393dffc`](https://github.com/NativePHP/nativephp.com/tree/393dffc5e070675654b64275d3b44d4923a6635f/resources/views/docs/mobile/3) on 2026-04-20.
 
 ## Install
 
@@ -84,12 +84,16 @@ Ask your AI assistant anything like:
 
 ## Keeping in sync with upstream docs
 
-The skill pins to NativePHP docs SHA [`393dffc`](https://github.com/NativePHP/nativephp.com/tree/393dffc5e070675654b64275d3b44d4923a6635f). To refresh against a newer SHA:
+Source links point to `main`, so they always resolve to the current upstream page. Only the skill body needs periodic review.
 
-1. Find the latest commit under [`resources/views/docs/mobile/3`](https://github.com/NativePHP/nativephp.com/tree/main/resources/views/docs/mobile/3)
-2. Diff the changelog — new v3.x features that need skill updates
-3. Bump the SHA in every `**Source (pinned):**` line across `SKILL.md` and `references/**/*.md`
-4. Bump `version:` in `SKILL.md` frontmatter
+Refresh workflow:
+
+1. Diff upstream against the last-synced SHA:  
+   [`393dffc...main`](https://github.com/NativePHP/nativephp.com/compare/393dffc5e070675654b64275d3b44d4923a6635f...main) — focus on files under `resources/views/docs/mobile/3/`
+2. Check `getting-started/changelog.md` for new v3.x features
+3. Update affected reference files in `skills/nativephp-mobile/`
+4. Bump `last_synced_sha` + `last_synced_date` in `skills/nativephp-mobile/SKILL.md` frontmatter
+5. Bump `version:`
 
 ## Credits
 

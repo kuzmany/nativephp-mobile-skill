@@ -2,13 +2,15 @@
 name: nativephp-mobile
 description: This skill should be used when the user asks to "create mobile app", "nativephp", "native php", "mobile app with laravel", "ios app", "android app", "build APK", "build IPA", "sign app", "native:run", "native:install", "native:jump", "native:package", "deploy to app store", "deploy to play store", "EDGE components", "bottom nav", "top bar", "side nav", "push notifications", "firebase push", "nativephp plugin", "bridge function", "mobile deep links", "camera", "biometrics", "securestorage", "deep linking", "OnNative", "nativephp_call", "persistent runtime", "background jobs", "mobile queue", "queue worker", "laravel boost mobile", "mobile-starter", or mentions NativePHP Mobile development, Laravel mobile apps, or building iOS/Android apps with PHP. Documents NativePHP Mobile v3.0–3.1.
 version: 0.2.0
+last_synced_sha: 393dffc5e070675654b64275d3b44d4923a6635f
+last_synced_date: 2026-04-20
 ---
 
 # NativePHP Mobile v3.0–3.1
 
 NativePHP runs full Laravel/PHP apps natively on iOS and Android — no web server, offline-first, with direct native API access via a custom PHP extension compiled into Swift (iOS) and Kotlin (Android) shells.
 
-**Docs source (pinned):** `https://github.com/NativePHP/nativephp.com/tree/393dffc5e070675654b64275d3b44d4923a6635f/resources/views/docs/mobile/3`
+**Docs source:** `https://github.com/NativePHP/nativephp.com/tree/main/resources/views/docs/mobile/3`  _(last synced against SHA [`393dffc`](https://github.com/NativePHP/nativephp.com/tree/393dffc5e070675654b64275d3b44d4923a6635f) on 2026-04-20)_
 
 **Upstream docs home:** `https://nativephp.com/docs/mobile/3/getting-started/introduction` — every page has a "Copy as Markdown" button.
 
@@ -115,7 +117,7 @@ On(Events.Camera.PhotoTaken, handler);
 | `native:plugin:validate` | Validate plugin structure |
 | `native:plugin:boost` | Generate Boost AI guidelines |
 
-Full flag reference: `references/getting-started.md` § Artisan Commands, or [pinned `commands.md`](https://github.com/NativePHP/nativephp.com/blob/393dffc5e070675654b64275d3b44d4923a6635f/resources/views/docs/mobile/3/getting-started/commands.md).
+Full flag reference: `references/getting-started.md` § Artisan Commands, or [pinned `commands.md`](https://github.com/NativePHP/nativephp.com/blob/main/resources/views/docs/mobile/3/getting-started/commands.md).
 
 ## EDGE Components (Native UI)
 
